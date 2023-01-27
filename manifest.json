@@ -1,5 +1,5 @@
 {
-  "name": "My Extension",
+  "name": "Google Extension",
   "description": "Embed the google search page as the navigation bar | Google Chrome Extension",
   "version": "1.0",
   "manifest_version": 2,
