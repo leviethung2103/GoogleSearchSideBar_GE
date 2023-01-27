@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google Popup</title>
+    <style>
+      /* Set the size of the popup window */
+      iframe {
+        width: 650px;
+        height: 500px;
+      }
+    </style>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <iframe src="https://google.com/search?igu=1" id="iframe"></iframe>
+    <div class="bottom">
+        <button id="back-button">Back</button>
+        <button id="forward-button">Forward</button>
+        <button id="home-button">Home</button>
+        <!-- <button class="btn" id="back-button" onclick="myFunc();"><i class="fa fa-home"></i></button> -->
+        <script src="popup.js"></script>
+    </div>
+
+  </body>
+</html>
+
